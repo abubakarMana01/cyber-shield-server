@@ -2,7 +2,7 @@
 spring:
   datasource:
     username: root
-    url: jdbc:postgresql://dpg-cnt3db7jbltc7398ipi0-a.render.com:5432/cyber_shield
+    url: jdbc:postgresql://dpg-cnt3db7jbltc7398ipi0-a.render.com:5432/cyber-shield
     driverClassName: org.postgresql.Driver
     password: alqVEw6adoG1aGu61xKooBLgpB670dFh
   jpa:
