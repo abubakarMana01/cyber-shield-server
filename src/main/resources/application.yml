@@ -2,15 +2,16 @@
 spring:
   datasource:
     username: root
-    url: jdbc:mysql://localhost:3306/cyber_shield
-    driverClassName: com.mysql.cj.jdbc.Driver
-    password: test1234
+    url: jdbc:postgresql://dpg-cnt3db7jbltc7398ipi0-a.render.com:5432/cyber_shield
+    driverClassName: org.postgresql.Driver
+    password: alqVEw6adoG1aGu61xKooBLgpB670dFh
   jpa:
     show-sql: 'true'
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
   servlet:
     multipart:
