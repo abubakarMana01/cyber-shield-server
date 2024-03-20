@@ -24,6 +24,6 @@ public class Record {
     private String userIdentifier;
 
     @ManyToOne
-    @JoinColumn(name = "user", nullable = false)
+    @JoinColumn(name = "userId", nullable = false)
     private User user;
 }

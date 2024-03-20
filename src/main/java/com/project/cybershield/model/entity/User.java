@@ -29,7 +29,4 @@ public class User {
     private String securityQuestion;
 
     private String answer;
-
-//    @OneToMany(mappedBy = "user")
-//    private List<Record> records;
 }
