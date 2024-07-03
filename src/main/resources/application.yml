@@ -2,7 +2,7 @@
 spring:
   datasource:
     username: root
-    url: jdbc:postgresql://dpg-cnt3db7jbltc7398ipi0-a.oregon-postgres.render.com:5432/cyber_shield
+    url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield-db
     driverClassName: org.postgresql.Driver
     password: alqVEw6adoG1aGu61xKooBLgpB670dFh
   jpa:
@@ -17,6 +17,10 @@ spring:
     multipart:
       max-file-size: 2MB
       max-request-size: 2MB
+
+
+# Old JDBC URL: url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield-db
+# postgresql://cybershield_db_user:b4HVcHgUUfCEktncobO5EmeBUyjgbG6c@dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com/cybershield_db
 
 #  server.tomcat.accesslog.enabled=true
 #
