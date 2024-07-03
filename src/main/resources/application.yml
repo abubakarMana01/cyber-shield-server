@@ -1,10 +1,10 @@
 
 spring:
   datasource:
-    username: root
+    username: cybershield_db_user
     url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield-db
     driverClassName: org.postgresql.Driver
-    password: alqVEw6adoG1aGu61xKooBLgpB670dFh
+    password: b4HVcHgUUfCEktncobO5EmeBUyjgbG6c
   jpa:
     show-sql: 'true'
     hibernate:
@@ -19,7 +19,14 @@ spring:
       max-request-size: 2MB
 
 
-# Old JDBC URL: url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield-db
+# Old JDBC URL: url: jdbc:postgresql://dpg-cnt3db7jbltc7398ipi0-a.oregon-postgres.render.com:5432/cyber_shield
+# OLD JDBC:
+#  datasource:
+#    username: root
+#    url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield-db
+#    driverClassName: org.postgresql.Driver
+#    password: alqVEw6adoG1aGu61xKooBLgpB670dFh
+
 # postgresql://cybershield_db_user:b4HVcHgUUfCEktncobO5EmeBUyjgbG6c@dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com/cybershield_db
 
 #  server.tomcat.accesslog.enabled=true
