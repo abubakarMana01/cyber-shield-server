@@ -2,7 +2,7 @@
 spring:
   datasource:
     username: cybershield_db_user
-    url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield-db
+    url: jdbc:postgresql://dpg-cq2isol6l47c73b6sang-a.oregon-postgres.render.com:5432/cybershield_db
     driverClassName: org.postgresql.Driver
     password: b4HVcHgUUfCEktncobO5EmeBUyjgbG6c
   jpa:
