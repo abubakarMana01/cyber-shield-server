@@ -2,7 +2,7 @@ package com.project.cybershield;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-q
+
 @SpringBootApplication
 public class CyberShieldApplication {
 
